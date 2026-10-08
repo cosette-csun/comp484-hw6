@@ -1,0 +1,84 @@
+/* Color Palette
+#2F3A55 - Blueberry Skin
+#5C6B8A - Berry Bloom
+#6E6F73 - Stem Grey
+#E7E2DE - Yogurt Tint
+#F5F6F3 - Plate White
+*/
+
+/* Global styles
+------------------------------------*/
+body {
+    background: #F5F6F3;
+    color: #2F3A55;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+/* Header & Footer
+------------------------------------*/
+header {
+    background: #2F3A55;
+    color: #F5F6F3;
+    padding: 40px;
+}
+
+header img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer {
+    background: #2F3A55;
+    color: #F5F6F3;
+    padding: 30px;
+    text-align: center;
+}
+
+footer a {
+    color: #F5F6F3;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background: #E7E2DE;
+    color: #2F3A55;
+    padding: 40px;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+    background: #5C6B8A;
+    color: #F5F6F3;
+    padding: 40px;
+}
